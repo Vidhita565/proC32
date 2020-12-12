@@ -56,7 +56,9 @@ function setup() {
 }
 
 function draw() {
-  background("white");
+  background("lightgrey");
+textSize(30)
+  text("Press Space For Another Try",350,100)
   ground.display();
   ground2.display();
   ground3.display();
