@@ -108,7 +108,7 @@ function mouseReleased()  {
 
 function keyPressed()  {
   if(keyCode===32)  {
-    Matter.Body.setPosition(polygon.body,{x:150, y:200})
+ 
     launcher.attach(polygon.body);
 
   }
